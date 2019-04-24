@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script language="JavaScript">
+        <!--
+        function Hello()
+        {
+            alert("Welcome to the Guessing Game!")
+        }//-->
+
+        var x = document.getElementById("theval");
+        if (x !== '6') {
+            x = '6';
+        }
+        else {
+            x = 'Sorry youve guessed wrong';
+        }
+
+        var y = document.getElementById("showval")
+
+
+        y.textContent = "Youve guessed the right number!"
+    </script>
+</head>
+<body onload="Hello()">
+<h1>The Guessing Game!!!</h1>
+<p>I have chosen a number between 1 and 10. Try to guess it.</p>
+
+<form action="http://example.com/join.php"> <input type="text" name="username"        size="15" maxlength="30" /></form>
+<input type="submit"value="Submit" />
+</body>
+</html>
